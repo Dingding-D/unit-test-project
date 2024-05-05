@@ -1,6 +1,6 @@
 language: php
 php:
-  - '8.3.4'
+  - hhvm
 script:
   - composer install
   - vendor/bin/phpunit
